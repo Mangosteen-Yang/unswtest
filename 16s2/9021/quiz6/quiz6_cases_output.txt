@@ -1,0 +1,150 @@
+>>> from quiz_6 import *
+>>> point_a0 = Point(637, 261)
+>>> point_a1 = Point(759, 367)
+>>> point_a2 = Point(814, 707)
+>>> point_a3 = Point(965, 861)
+>>> point_a4 = Point(757, 667)
+>>> point_b0 = Point(672, 306)
+>>> point_b1 = Point(794, 412)
+>>> point_b2 = Point(849, 752)
+>>> point_b3 = Point(1000, 906)
+>>> point_b4 = Point(792, 712)
+>>> point_c0 = Point(232, 379)
+>>> point_c1 = Point(985, 384)
+>>> point_c2 = Point(129, 197)
+>>> point_c3 = Point(721, 44)
+>>> point_c4 = Point(87, 140)
+>>> point_d0 = Point(232, 477)
+>>> point_d1 = Point(985, 482)
+>>> point_d2 = Point(129, 295)
+>>> point_d3 = Point(721, 142)
+>>> point_d4 = Point(87, 238)
+>>> line_ab00 = Line(point_a0, point_b0)
+>>> line_cd00 = Line(point_c0, point_d0)
+>>> line_ab11 = Line(point_a1, point_b1)
+>>> line_cd11 = Line(point_c1, point_d1)
+>>> line_ab22 = Line(point_a2, point_b2)
+>>> line_cd22 = Line(point_c2, point_d2)
+>>> line_ab33 = Line(point_a3, point_b3)
+>>> line_cd33 = Line(point_c3, point_d3)
+>>> line_ab44 = Line(point_a4, point_b4)
+>>> line_cd44 = Line(point_c4, point_d4)
+>>> line_ab01 = Line(point_a0, point_b1)
+>>> line_cd01 = Line(point_c0, point_d1)
+>>> line_ab02 = Line(point_a0, point_b2)
+>>> line_cd02 = Line(point_c0, point_d2)
+>>> line_ab03 = Line(point_a0, point_b3)
+>>> line_cd03 = Line(point_c0, point_d3)
+>>> line_ab04 = Line(point_a0, point_b4)
+>>> line_cd04 = Line(point_c0, point_d4)
+>>> line_ab10 = Line(point_a1, point_b0)
+>>> line_cd10 = Line(point_c1, point_d0)
+>>> line_ab12 = Line(point_a1, point_b2)
+>>> line_cd12 = Line(point_c1, point_d2)
+>>> line_ab13 = Line(point_a1, point_b3)
+>>> line_cd13 = Line(point_c1, point_d3)
+>>> line_ab14 = Line(point_a1, point_b4)
+>>> line_cd14 = Line(point_c1, point_d4)
+>>> line_ab20 = Line(point_a2, point_b0)
+>>> line_cd20 = Line(point_c2, point_d0)
+>>> line_ab21 = Line(point_a2, point_b1)
+>>> line_cd21 = Line(point_c2, point_d1)
+>>> line_ab23 = Line(point_a2, point_b3)
+>>> line_cd23 = Line(point_c2, point_d3)
+>>> line_ab24 = Line(point_a2, point_b4)
+>>> line_cd24 = Line(point_c2, point_d4)
+>>> line_ab30 = Line(point_a3, point_b0)
+>>> line_cd30 = Line(point_c3, point_d0)
+>>> line_ab31 = Line(point_a3, point_b1)
+>>> line_cd31 = Line(point_c3, point_d1)
+>>> line_ab32 = Line(point_a3, point_b2)
+>>> line_cd32 = Line(point_c3, point_d2)
+>>> line_ab34 = Line(point_a3, point_b4)
+>>> line_cd34 = Line(point_c3, point_d4)
+>>> line_ab40 = Line(point_a4, point_b0)
+>>> line_cd40 = Line(point_c4, point_d0)
+>>> line_ab41 = Line(point_a4, point_b1)
+>>> line_cd41 = Line(point_c4, point_d1)
+>>> line_ab42 = Line(point_a4, point_b2)
+>>> line_cd42 = Line(point_c4, point_d2)
+>>> line_ab43 = Line(point_a4, point_b3)
+>>> line_cd43 = Line(point_c4, point_d3)
+>>> parallelogram = Parallelogram(line_ab01, line_ab12, line_cd01, line_cd12)
+Cannot create parallelogram
+>>> parallelogram = Parallelogram(line_ab02, line_ab13, line_cd02, line_cd13)
+Cannot create parallelogram
+>>> parallelogram = Parallelogram(line_ab03, line_ab14, line_cd03, line_cd14)
+Cannot create parallelogram
+>>> parallelogram = Parallelogram(line_ab10, line_ab21, line_cd10, line_cd21)
+Cannot create parallelogram
+>>> parallelogram = Parallelogram(line_ab12, line_ab23, line_cd12, line_cd23)
+Cannot create parallelogram
+>>> parallelogram = Parallelogram(line_ab13, line_ab24, line_cd13, line_cd24)
+Cannot create parallelogram
+>>> parallelogram = Parallelogram(line_ab20, line_ab31, line_cd20, line_cd31)
+Cannot create parallelogram
+>>> parallelogram = Parallelogram(line_ab21, line_ab32, line_cd21, line_cd32)
+Cannot create parallelogram
+>>> parallelogram = Parallelogram(line_ab23, line_ab34, line_cd23, line_cd34)
+Cannot create parallelogram
+>>> parallelogram = Parallelogram(line_ab30, line_ab41, line_cd30, line_cd41)
+Cannot create parallelogram
+>>> parallelogram = Parallelogram(line_ab31, line_ab42, line_cd31, line_cd42)
+Cannot create parallelogram
+>>> parallelogram = Parallelogram(line_ab32, line_ab43, line_cd32, line_cd43)
+Cannot create parallelogram
+>>> parallelogram = Parallelogram(line_ab00, line_ab11, line_cd00, line_cd11)
+>>> parallelogram = Parallelogram(line_ab11, line_ab22, line_cd11, line_cd22)
+>>> parallelogram = Parallelogram(line_ab22, line_ab33, line_cd22, line_cd33)
+>>> parallelogram = Parallelogram(line_ab33, line_ab44, line_cd33, line_cd44)
+>>> parallelogram.divides_into_two_parallelograms(line_ab01)
+False
+>>> parallelogram.divides_into_two_parallelograms(line_ab02)
+False
+>>> parallelogram.divides_into_two_parallelograms(line_ab03)
+False
+>>> parallelogram.divides_into_two_parallelograms(line_ab04)
+False
+>>> parallelogram.divides_into_two_parallelograms(line_ab10)
+False
+>>> parallelogram.divides_into_two_parallelograms(line_ab12)
+False
+>>> parallelogram.divides_into_two_parallelograms(line_ab13)
+False
+>>> parallelogram.divides_into_two_parallelograms(line_ab14)
+False
+>>> parallelogram.divides_into_two_parallelograms(line_ab20)
+False
+>>> parallelogram.divides_into_two_parallelograms(line_ab21)
+False
+>>> parallelogram.divides_into_two_parallelograms(line_ab23)
+False
+>>> parallelogram.divides_into_two_parallelograms(line_ab24)
+False
+>>> parallelogram.divides_into_two_parallelograms(line_ab30)
+False
+>>> parallelogram.divides_into_two_parallelograms(line_ab31)
+False
+>>> parallelogram.divides_into_two_parallelograms(line_ab32)
+False
+>>> parallelogram.divides_into_two_parallelograms(line_ab34)
+False
+>>> parallelogram.divides_into_two_parallelograms(line_ab40)
+False
+>>> parallelogram.divides_into_two_parallelograms(line_ab41)
+False
+>>> parallelogram.divides_into_two_parallelograms(line_ab42)
+False
+>>> parallelogram.divides_into_two_parallelograms(line_ab43)
+False
+>>> parallelogram.divides_into_two_parallelograms(line_ab00)
+False
+>>> parallelogram.divides_into_two_parallelograms(line_ab11)
+False
+>>> parallelogram.divides_into_two_parallelograms(line_ab22)
+True
+>>> parallelogram.divides_into_two_parallelograms(line_ab33)
+False
+>>> parallelogram.divides_into_two_parallelograms(line_ab44)
+False
+>>>
