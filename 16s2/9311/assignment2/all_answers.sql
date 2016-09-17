@@ -1,4 +1,4 @@
--- Q1-Q15,Q17,Q18
+-- Q1-Q18
 -- Author: Yunqiu Xu
 
 
@@ -44,7 +44,7 @@ select * from q2;
 (10 行记录)
 -------------------------------------------------
 --Q4
-
+-- Wrong answer: some industries can be same
       sector      | number 
 ------------------+--------
  Utilities        |      6
@@ -56,6 +56,21 @@ select * from q2;
  Industrial Goods |     19
  Healthcare       |      9
 (8 行记录)
+
+-- COUNT(DISTINCT industries)
+      sector      | number 
+------------------+--------
+ Basic Materials  |     11
+ Consumer Goods   |      6
+ Financial        |     11
+ Healthcare       |      4
+ Industrial Goods |      5
+ Services         |     18
+ Technology       |      4
+ Utilities        |      3
+(8 行记录)
+
+
 -------------------------------------------------
 -- Q5
 50 lines
@@ -327,6 +342,34 @@ code | minprice |        avgprice        | maxprice |      mindaygain      |    
 
 -------------------------------------------------
 -- Q16
+-- Based on BlakeNg's test file
+
+a2=# insert into executive values ('AAD','blake');
+INSERT 0 1
+a2=# insert into executive values ('ABC','blake');
+INSERT 0 0
+a2=# delete from executive where person='blake';
+DELETE 1
+a2=# insert into executive values ('ABC','A');
+INSERT 0 1
+a2=# insert into executive values ('ABC','B');
+INSERT 0 1
+a2=# insert into executive values ('AAD','B');
+INSERT 0 0
+a2=# insert into executive values ('ABC','C');
+INSERT 0 1
+a2=# insert into executive values ('ABC','E');
+INSERT 0 1
+a2=# insert into executive values ('ABC','F');
+INSERT 0 1
+a2=# update executive set code='AAD' where person='A' and code='ABC';
+UPDATE 1
+a2=# update executive set code='ABP' where person='B' and code='AAD';
+UPDATE 0
+a2=# update executive set person='D' where person='C' and code='ABC';
+UPDATE 1
+a2=# update executive set person='E' where person='F' and code='ABC';
+UPDATE 0
 
 
 -------------------------------------------------
