@@ -1,4 +1,4 @@
-# UNSWIT
+# UNSW TEST
 This repo is built for every MIT student to test your program or database with more test cases or contribute your test cases for other students.
 This repo will only accept test cases and expected outputs. **No ANSWERS PLEASE!**
 
