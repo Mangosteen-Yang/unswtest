@@ -1,0 +1,6 @@
+The maze has 41 gates.
+The maze has 23 sets of walls that are all connected.
+The maze has 73 inaccessible inner points.
+The maze has 21 accessible areas.
+The maze has 59 sets of accessible cul-de-sacs that are all connected.
+The maze has 5 entry-exit paths with no intersections not to cul-de-sacs.

@@ -1,0 +1,6 @@
+The maze has a single gate.
+The maze has a single wall that are all connected.
+The maze has a unique inaccessible inner point.
+The maze has a unique accessible area.
+The maze has accessible cul-de-sacs that are all connected.
+The maze has no entry-exit path with no intersection not to cul-de-sacs.
