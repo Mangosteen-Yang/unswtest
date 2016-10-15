@@ -1,0 +1,2 @@
+Enter two integers, the second one nonnegative and at most equal to 10: 
+0

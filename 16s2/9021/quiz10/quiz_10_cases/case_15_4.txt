@@ -1,0 +1,18 @@
+Enter two integers, the second one nonnegative and at most equal to 10: 
+1
+
+      1
+0
+
+
+      1
+0
+      4
+
+            1
+      0
+
+0
+
+      4
+

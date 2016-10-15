@@ -1,0 +1,42 @@
+Enter two integers, the second one nonnegative and at most equal to 10: 
+7
+
+      7
+5
+
+
+      7
+4
+      5
+
+            7
+      4
+
+2
+
+      5
+
+
+            7
+      2
+            4
+2
+
+      5
+
+
+            7
+      2
+            4
+0
+            5
+      2
+
+
+            7
+      2
+            4
+0
+            5
+      2
+            5
