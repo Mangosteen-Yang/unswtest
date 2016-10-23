@@ -1,3 +1,4 @@
+Which text file do you want to use for the puzzle?
 The Sirs are: BRYAN CABRERA CLINE KEMP LANE LIVINGSTON OCONNOR ROBERSON ROLLINS WRIGHT 
 There is a unique solution:
 Sir BRYAN is a Knave.

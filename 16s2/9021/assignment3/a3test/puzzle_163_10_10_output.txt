@@ -1,2 +1,3 @@
+Which text file do you want to use for the puzzle?
 The Sirs are: BURNETT DECKER FRYE HOLDEN HUMPHREY MASSEY PATE SNYDER WALL ZAMORA 
-There are 6 solutions
+There are 6 solutions.

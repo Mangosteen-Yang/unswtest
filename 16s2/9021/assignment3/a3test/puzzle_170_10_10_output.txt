@@ -1,3 +1,4 @@
+Which text file do you want to use for the puzzle?
 The Sirs are: BRYANT DANIEL DURAN FRANCO HURLEY MEDINA SWEET THORNTON WEBER WOLFE 
 There is a unique solution:
 Sir BRYANT is a Knave.
