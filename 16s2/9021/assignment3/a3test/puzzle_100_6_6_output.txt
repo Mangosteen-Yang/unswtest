@@ -1,3 +1,4 @@
+Which text file do you want to use for the puzzle?
 The Sirs are: DANIELS FIGUEROA GILLESPIE HART LE NORTON 
 There is a unique solution:
 Sir DANIELS is a Knave.
