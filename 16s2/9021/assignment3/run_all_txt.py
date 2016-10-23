@@ -1,3 +1,5 @@
+#usage:
+#solve.py in current dictionary, all test files in a3test dictionary
 import sys
 import os
 
